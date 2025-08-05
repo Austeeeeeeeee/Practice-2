@@ -28,6 +28,6 @@ def deposit(self,amount):
 	else:
 		print('Enter a valid amount!')
 
-client1 = Bank_Account()
+client1 = Bank_Account('Clement Loral','Doctor','5.000')
 client1.display_info()
 client1.deposit()
