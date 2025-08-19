@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34dcc40a-11f2-4833-9cdc-05e582f78922" name="Changes" comment="Started BankAccount script!">
+      <change afterPath="$PROJECT_DIR$/Dictonaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nested dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount.py" afterDir="false" />
     </list>
@@ -23,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Austeeeeeeeee"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Austeeeeeeeee&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Austeeeeeeeee/Practice-2.git",
-    "accountId": "216c36db-a7a9-4b55-b8aa-e25f3ca90258"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Austeeeeeeeee/Practice-2.git&quot;,
+    &quot;accountId&quot;: &quot;216c36db-a7a9-4b55-b8aa-e25f3ca90258&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30ozS0AHYfPwPNe5ybkzxrpieRl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +50,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.BankAccount.executor": "Run",
+    "Python.Dictonaries.executor": "Run",
+    "Python.Nested dictionaries.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -83,22 +88,19 @@
       <option name="project" value="LOCAL" />
       <updated>1754309271045</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started BankAccount script!">
+      <option name="closed" value="true" />
+      <created>1754378499910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754378499910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started BankAccount script!" />
     <option name="LAST_COMMIT_MESSAGE" value="Started BankAccount script!" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BankAccount.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
