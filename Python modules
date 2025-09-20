@@ -37,5 +37,5 @@ Column access -> Access one column: df['Normal']
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Enum -> gives names for fixed values, instead of assigning 1, you give it a name
+Enum -> gives names for fixed values, instead of assigning 1, you give it a name#todo
      -
