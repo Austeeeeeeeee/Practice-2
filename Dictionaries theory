@@ -1,0 +1,76 @@
+
+                                           -------------------->>>>>>>>DICTIONARIES<<<<<<<<<--------------------
+
+
+
+
+   1. Ordered collections               -> Add new key:inserted at the end,delete and re-insert:move to the end
+   2. Mutable object                    -> Can add,update, remove items
+   3. Running time                      -> Average O(1)
+   3. Cannot insert a key in a specific position:
+      - Use collentions.OrderedDict
+      - Rebuild the dic using a dictionary comprehesion
+
+Hash -> number calculated from the key (_hash_) tells Python where to store/retrieve the value
+Python dictionary -> hash table under the hood
+Hash tables - data structures that stores data by a key's hash for fast access
+Python keeps extra space to remember insertion order
+------------------------------------------------------------------------KEY/VALUE------------------------------------------------------------------
+
+KEY -> Immutable (hashable)  -> Numbers: int,float,complex
+                             -> Strings: str
+                             -> Tuples (only if contains immutable elements)
+    -> Must be unique        -> Last assignment overwrites the old one
+
+    -> Cannot deleted but replaced:     1. Add new key
+                                        2. Assign old's key value to the new key
+                                        3. Delete the old key
+    -> If hash and eq match = same key
+
+
+
+VALUE -> Mutable or Immutable
+      -> Duplicates allowed
+      -> Can be modified if mutable
+
+
+------------------------------------------------------------------------METHODS------------------------------------------------------------------
+>>>>ACCESS
+d[key]                                Access value by key (raises KeyError if key missing)
+d.get(key[, default])                 Access value safely, returns default if key missing
+d.keys()	                          Returns a view of all keys
+d.values()	                          Returns a view of all values
+d.items()	                          Returns a view of (key, value) pairs
+
+
+>>>>ADD/UPDATE
+d[key] = value	                      Add new key or update existing key
+
+d.update(other_dict)	              - Adding new key that does not exist yet
+                                      - Updating a dic known/unkown
+                                      - Merging dictionaries or key-value pairs into an existing dictionary, example:
+
+                                      data = {"Normal": {"WhiteHot": {"brightness": 50}}}
+                                      data["Normal"].update({"BlackHot": {"brightness": 60}})
+                                      In this case, 'BlackHot palette' is added.
+
+                                      - Rename a new (update) and pass it's value
+                                      data["Normal"]["WhiteHotNew"] = data["Normal"].pop("WhiteHot")  # moves value to new key
+                                      - Use with loop, will overwrite the value and keep only the last one
+
+
+setdefault(key, default)	          Returns value if key exists, else sets key to default
+
+
+
+>>>>REMOVE/DELETE
+del d[key]	                         Delete key and its value (KeyError if missing)
+d.pop(key[, default])	             Remove key and return value, optionally return default if missing
+d.popitem()	                         Remove and return last inserted key–value pair (since 3.7)
+d.clear()	                         Remove all items
+
+
+
+>>>>OTHER METHODS
+d.copy()
+Returns a shallow copy of the dictionary

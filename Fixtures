@@ -1,0 +1,14 @@
+FIXTURES -
+
+STAND_ALONE_FUNCTION -> Python does not automatically about it.
+                     -> If you define a fixture as it's parameter, you cannot call this function manually, only using pytest
+                     for this reason you need to call this function in your test that has this fixture in it's paramters
+
+                     -> If this function is decorated as a fixture, you do not need to call into test in order
+                        of it's parameters(other fixtures) to work, as pytest handles this job.
+
+If you pass a fixture to a standalone function, in order for this function to be able to
+use the fixture, there are two options:
+
+    1. Pass this function to a test
+    2. Make it a fixture

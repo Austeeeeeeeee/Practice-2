@@ -1,0 +1,79 @@
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>RANDOM FUNCTIONS
+random.choice -> select random element from a sequence
+              -> use when you have a list, tuple, or string with defined values
+              -> pick from existing options
+              -> duplicates possible
+
+random.randint -> random integer between two numbers
+               -> includes last element
+               -> generate a number within a range
+               -> only integers
+random.sample(supported_palettes,8)  -> return 8 unique and random options from my list
+                                     -> no duplicates
+                                     -> order of selection is random
+
+random.uniform  -> works the same way as randint but with floats
+
+range() -> creates a sequence of numbers (not list, just object you can iterate with)
+        -> Automatically generated sequence only for number
+        -> For other data structures it does not.Need to use len() to explicit the length
+        -> often used for loops
+        -> Three ways of use it:
+                                 - for i in range(5):   # default starts from 0, 5 exclusive
+                                 - for i in range(2, 7):   # start=2, stop=7 (exclusive)
+                                 - for i in range(0, 10, 2):   # start=0, stop=10, step=2
+
+len()   -> returns the length (number of items) of a sequence (list,tuple,string,dictionary)
+
+First use len -> gives the count
+Then range    -> generates that many loop steps
+
+
+
+
+random.randrange #todo
+CLASSES TYPES---------------------------------------------------------------------------------------------------------------------------
+Types:
+1. Regular class     -> general purpose OOP
+2. Dataclass         -> Structured data containers
+3. Abstract class    -> enforce subclass
+4. Static class
+5. Singleton
+6. Metaclass         -> class that control other classes
+7. Enum              -> fixed set of constants
+8. NameTuple/TypedDict
+
+
+
+
+2. Dataclass -> from dataclasses import dataclass
+             -> use @dataclass decorator
+             -> auto generates _int_(constructor),_repr_(string representation),_eq_(comparision)
+             -> sometimes generates _hash_,_it_
+             -> it works as classes attributes but with less code
+
+3. Abstract class -> from abc import ABC
+                  -> blueprint for other classes
+                  -> can have normal methods and abstracts methods (methods that must be implemented by child classes)
+7. Enum class     -> consist of:
+                     name - for human and code readability
+                     values - for machines (storage, transmission,comparison)
+                  -> acts like classes attributes with fixed values
+                     and these are choices stored in databases as actual values (integers,strings or codes)
+                     The connection is about mapping Enum members to database columns.
+                     If databses vales change, enum centralized mapping
+                  -> provides safety,uniqueness and clarity
+
+
+
+
+
+
+@property decorator -> use method like an attribute #todo different methods
+                    -> use when have attributes for real-only or computed values
+                    -> hides method calls from the user
+
+
+remaining_palette = [p for p in all_palettes if p not in cycle_palettes_list][0]

@@ -81,24 +81,3 @@ print(cities)
 
 
 
-
-'''
-def info():
-	name = input('Enter you name: ')
-	age = int(input('Enter your age: '))
-	nationality = input('Enter your nationality: ')
-	return{
-	'Name':name,
-	'Age':age,
-	'Nationality':nationality
-}
-dic = info()
-print(dic)
-'''
-print('')
-print('')
-dicta = {}
-dicta['Name'] = 'Mario'
-print(dicta)
-dicta['Name'] = 'Mari'
-print(dicta)

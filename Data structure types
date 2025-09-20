@@ -1,0 +1,7 @@
+COLLECTION -> Any objects that stores multiple items together
+
+
+LIST            -> Dynamic array        -> Mutable      -> Order        -> O(n)
+TUPLE           -> Fixed array          -> Immutable    -> Order        -> O(n)
+SETS            -> Hash table           -> Mutable      -> No-Order     -> O(1)
+dictionary      -> Hash table           -> Mutable      -> Order        -> O(1)

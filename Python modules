@@ -1,0 +1,41 @@
+TYPING------------------------------------------------------------------------------------------------------------------------------------------------------------
+Typing -> provides more advanced and generic hints
+       -> Characteristics: - Uppercase: Dict,List,Tuple
+                           - Use to describe the content of the collection
+       -> allows to indicate the expected types of variables;
+                                          function arguments;
+                                          return values
+       -> Do not force types at runtime
+
+Primitive typing -> no import needed
+                 -> Characteristics: lowercase
+def greet(name: str) -> str:
+PANDAS-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pandas -> Data manipulation and analysis
+       -> It converts the data into a Dataframe - a table with rows and columns
+          If it is a simple column, it converts it into Series
+       FORMAT: -> Text & Table data
+                  CVS,TSV,Excel,JSON,Html TABLES
+                  Databases
+                  SQL
+                  Other formats
+Methods..........................
+Rows access -> By index label using .loc: df.loc[1] or [0:2] inclusive last element
+            -> By integer position using iloc: iloc[0:3]
+            -> Iterate using .iterrows():
+                       - row,column in df.interrows():
+                       - Gives row by row such as Series
+                       - Return:
+                         Index(also known as row label, default numbers from 0 to ... if not customized)
+                         Rows content
+
+Column access -> Access one column: df['Normal']
+              -> Access multiple columns: df [['Normal','High']]
+              -> Iterate over columns: for col in df.columns:
+              -> Position-based .iloc:
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Enum -> gives names for fixed values, instead of assigning 1, you give it a name
+     -
